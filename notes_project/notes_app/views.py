@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 
 # Create your views here.
+# a template for apps created with django
 # safe=False means you can return more data than a python dictionary
 
 def getRoutes(request):
